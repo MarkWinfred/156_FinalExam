@@ -1,0 +1,409 @@
+06-07 03:16:10.833  5326  5356 I TestRunner: started: recycler_view_item_count(com.example.dogglers.HorizontalListTests)
+06-07 03:16:10.839  5326  5356 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-07 03:16:10.846  5326  5356 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:10.847  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94399, tid:1918
+06-07 03:16:10.847  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94399, dur:0, num:6, tid:1918
+06-07 03:16:10.848   838   904 I libPowerHal: [perfLockRel] hdl:94399, idx:1
+06-07 03:16:10.848   838   904 I libPowerHal: [PD] scn:1 hdl:94399 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:10.848   874   955 D DispPerfService: get hint proc=, idx=0 none
+06-07 03:16:10.848   838   904 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+06-07 03:16:10.849  1650  1918 I mtkpower_client: ret_hdl:94401
+06-07 03:16:10.849   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94401 hint:-1 pid:1650 duration:0 => ret_hdl:94401
+06-07 03:16:10.849   838   904 I libPowerHal: [PE] scn:1 hdl:94401 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:10.849   838   904 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 1419000 -1
+06-07 03:16:10.850   874  1507 D DispPerfService: get hint proc=ActivityRecord{93ea416 u0 com.example.dogglers, idx=0 none
+06-07 03:16:10.850  2605  2605 E Launcher.ColorBubbleTextView: mForceHideDot is false
+06-07 03:16:10.850  1650  1971 W Bitmap  : Called getWidth() on a recycle()'d bitmap! This is undefined behavior!
+06-07 03:16:10.850  1650  1971 W Bitmap  : Called getHeight() on a recycle()'d bitmap! This is undefined behavior!
+06-07 03:16:10.852   838   855 I mtkpower@impl: [setMode] type:5, enabled:1
+06-07 03:16:10.852   838   904 I libPowerHal: [perfLockAcq] idx:2 hdl:94402 hint:11 pid:838 duration:30000 => ret_hdl:94402
+06-07 03:16:10.852   838   904 I libPowerHal: [PE] scn:2 hdl:94402 hint:11 comm:mtkpower@1.0-se pid:838
+06-07 03:16:10.852   838   904 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 2000000 -1 2050000 -1
+06-07 03:16:10.852   838   904 I libPowerHal: [PE] LAUNCH update cmd:1000000, param:0
+06-07 03:16:10.852   838   904 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+06-07 03:16:10.853   838   904 I libPowerHal: [PE] LAUNCH update cmd:1000000 param:0
+06-07 03:16:10.853   838   904 I libPowerHal: [perfLockRel] hdl:94400, idx:-1
+06-07 03:16:10.854   838   904 I libPowerHal: [perfLockAcq] idx:3 hdl:94403 hint:22 pid:838 duration:10000 => ret_hdl:94403
+06-07 03:16:10.854   838   904 I libPowerHal: [PE] scn:3 hdl:94403 hint:22 comm:mtkpower@1.0-se pid:838
+06-07 03:16:10.856   874  1504 I BufferQueueProducer: [com.oppo.launcher/com.oppo.launcher.Launcher#1](this:0xb400007bda141a58,id:8089,api:1,p:2605,c:874) queueBuffer: fps=40.03 dur=1024.13 max=499.80 min=5.46
+06-07 03:16:10.857  1650  1664 V SensorManager: setScreenShotDisableImpl
+06-07 03:16:10.857  1650  1664 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+06-07 03:16:10.858  1650  1664 I ColorHansManager : ColorHansManager : resume pkg: com.example.dogglers, uid:10209, prev pkg: com.oppo.launcher, prev uid: 10074
+06-07 03:16:10.858  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94401, tid:1918
+06-07 03:16:10.858  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94401, dur:0, num:6, tid:1918
+06-07 03:16:10.858   838   904 I libPowerHal: [perfLockRel] hdl:94401, idx:1
+06-07 03:16:10.858   838   904 I libPowerHal: [PD] scn:1 hdl:94401 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:10.859  1650  1918 I mtkpower_client: ret_hdl:94404
+06-07 03:16:10.859   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94404 hint:-1 pid:1650 duration:0 => ret_hdl:94404
+06-07 03:16:10.859   838   904 I libPowerHal: [PE] scn:1 hdl:94404 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:10.869  1650  1971 D OplusSkImageProcessing: INFO:(null),quality 95
+06-07 03:16:10.869  1650  1971 D system_server: Resolution: 540 x 1200; FLAG:0
+06-07 03:16:10.869  1650  1971 D system_server: Resolution: 540 x 1200;
+06-07 03:16:10.869  1650  1971 D system_server: support: 0
+06-07 03:16:10.891  3258  8864 E oiface  : packageSwitch pkg com.example.dogglers, enter
+06-07 03:16:10.900   838   904 I libPowerHal: [perfLockAcq] idx:5 hdl:94410 hint:23 pid:838 duration:10000 => ret_hdl:94410
+06-07 03:16:10.900   838   904 I libPowerHal: [PE] scn:5 hdl:94410 hint:23 comm:mtkpower@1.0-se pid:838
+06-07 03:16:10.928  5326  5326 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@34d14f5 in: PRE_ON_CREATE
+06-07 03:16:10.939   874   874 D OppoExLayer: ~Layer() sequence=41457, name=Surface(name=669131f NavigationBar0)/@0xe54d8f7 - animation-leash#1@0xb400007bd9e80000
+06-07 03:16:10.977  1650  1664 D OppoDisplayPolicy: com.example.dogglers, no change cutoutMode: 0
+06-07 03:16:10.995   874  1507 D DispPerfService: onframeavailable pid=5326, slot=0, seq=41469, name=com.example.dogglers:com.example.dogglers/com.example.dogglers.HorizontalListActivity#0
+06-07 03:16:11.017   838   904 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:94413
+06-07 03:16:11.027  5326  5326 I ViewInteraction: Checking 'com.example.dogglers.BaseTest$DrawableMatcher$RecyclerViewAssertion@4797ecb' assertion on view view.getId() is <2131230945/com.example.dogglers:id/horizontal_recycler_view>
+06-07 03:16:11.032  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.032  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.simejikeyboard, reason: lastResumeProtect
+06-07 03:16:11.033  1650  1664 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+06-07 03:16:11.034  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.034  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.kiloo.subwaysurf, reason: lastResumeProtect
+06-07 03:16:11.035  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.035  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.google.android.apps.docs, reason: lastResumeProtect
+06-07 03:16:11.035  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.035  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.google.android.apps.classroom, reason: lastResumeProtect
+06-07 03:16:11.036  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.036  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.lenovo.anyshare.gps, reason: lastResumeProtect
+06-07 03:16:11.036  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.036  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.lazada.android, reason: lastResumeProtect
+06-07 03:16:11.036   874   951 D DispPerfService: get hint proc=Surface(name=613b6a7 InputMethod), idx=0 none
+06-07 03:16:11.037  5326  5356 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.038  1650  2568 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.038  1650  2568 I ColorHansManager : stateRToFFreeze--imporant case: pkgName: com.appsinnova.android.keepclean, reason: lastResumeProtect
+06-07 03:16:11.038  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3204
+06-07 03:16:11.039   838   904 I libPowerHal: [perfLockRel] hdl:94412, idx:1
+06-07 03:16:11.039   838   904 I libPowerHal: [PD] scn:1 hdl:94412 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.039  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2100 checkRepeatedly = false, unlocked = true
+06-07 03:16:11.039   838   904 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+06-07 03:16:11.039   874   951 D DispPerfService: get hint proc=ActivityRecord{c30c446 u0 com.example.dogglers, idx=0 none
+06-07 03:16:11.039   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.046  5326  5326 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@34d14f5 in: PAUSED
+06-07 03:16:11.046  5326  5326 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.HorizontalListActivity@34d14f5
+06-07 03:16:11.049  1650  1769 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+06-07 03:16:11.050   838   854 I mtkpower@impl: [notifyAppState] act com.example.dogglers.HorizontalListActivity => androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-07 03:16:11.050  1650  1769 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+06-07 03:16:11.052   874   874 D OppoExLayer: ~Layer() sequence=41459, name=Surface(name=613b6a7 InputMethod)/@0x18076fd - animation-leash#0@0xb400007bda1da000
+06-07 03:16:11.056  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.057  5326  5539 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.057  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94414, tid:1918
+06-07 03:16:11.058  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94414, dur:0, num:10, tid:1918
+06-07 03:16:11.058   838   904 I libPowerHal: [perfLockRel] hdl:94414, idx:1
+06-07 03:16:11.058   838   904 I libPowerHal: [PD] scn:1 hdl:94414 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.058   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.058  1650  1918 I mtkpower_client: ret_hdl:94417
+06-07 03:16:11.058   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.058   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94417 hint:-1 pid:1650 duration:0 => ret_hdl:94417
+06-07 03:16:11.058   838   904 I libPowerHal: [PE] scn:1 hdl:94417 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.058   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.060  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554 in: PRE_ON_CREATE
+06-07 03:16:11.060  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554
+06-07 03:16:11.065  1650  1663 I InputDispatcher: Focus left window: Window{d06e310 u0 com.example.dogglers/com.example.dogglers.HorizontalListActivity} in display 0
+06-07 03:16:11.065  1650  1663 I InputDispatcher: Window went away: Window{d06e310 u0 com.example.dogglers/com.example.dogglers.HorizontalListActivity}
+06-07 03:16:11.065  1650  1664 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+06-07 03:16:11.068  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554 in: CREATED
+06-07 03:16:11.069  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554
+06-07 03:16:11.070  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554 in: STARTED
+06-07 03:16:11.070  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554
+06-07 03:16:11.072  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94417, tid:1918
+06-07 03:16:11.072  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94417, dur:0, num:10, tid:1918
+06-07 03:16:11.072   838   904 I libPowerHal: [perfLockRel] hdl:94417, idx:1
+06-07 03:16:11.072   838   904 I libPowerHal: [PD] scn:1 hdl:94417 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.072   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.072  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554 in: RESUMED
+06-07 03:16:11.073  1650  1918 I mtkpower_client: ret_hdl:94418
+06-07 03:16:11.073   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.073   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94418 hint:-1 pid:1650 duration:0 => ret_hdl:94418
+06-07 03:16:11.073   838   904 I libPowerHal: [PE] scn:1 hdl:94418 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.073   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.073  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554
+06-07 03:16:11.073  5326  5326 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@78fc43[]
+06-07 03:16:11.074   874   951 I SurfaceFlinger: [SF client] NEW(0xb400007bf3852880) for (5326:com.example.dogglers)
+06-07 03:16:11.079  5326  5326 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+06-07 03:16:11.080  1650  1664 D OppoDisplayPolicy: com.example.dogglers, no change cutoutMode: 0
+06-07 03:16:11.080   874  1504 D DispPerfService: get hint proc=c8b5164 com.example.dogglers, idx=0 none
+06-07 03:16:11.082  5326  5326 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.082  5326  5326 I chatty  : uid=10209(com.example.dogglers) identical 4 lines
+06-07 03:16:11.082  5326  5326 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.082  5326  5326 I InputTransport: Create ARC handle: 0xb4000078519ff5c0
+06-07 03:16:11.082  5326  5326 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@286b73e, this = DecorView@78fc43[InstrumentationActivityInvoker$EmptyActivity]
+06-07 03:16:11.086  1650  1664 D OppoDisplayPolicy: com.example.dogglers, no change cutoutMode: 0
+06-07 03:16:11.088   874  1504 D DispPerfService: get hint proc=com.example.dogglers, idx=0 none
+06-07 03:16:11.088   874  1504 I BufferQueueConsumer: [](id:36a00001fa0,api:0,p:-1,c:874) connect(): controlledByApp=false
+06-07 03:16:11.088   874  1504 I BufferQueue: [unnamed-874-8096](this:0xb400007c11e8c658,id:8096,api:0,p:-1,c:-1) BufferQueue core=(874:/system/bin/surfaceflinger)
+06-07 03:16:11.090   874  1504 D DispPerfService: get hint proc=Surface(name=7b5d0e3 StatusBar), idx=0 none
+06-07 03:16:11.091   874  1504 D DispPerfService: get hint proc=Surface(name=669131f NavigationBar0), idx=0 none
+06-07 03:16:11.096   874   951 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](id:36a00001fa0,api:1,p:5326,c:874) connect(): api=1 producerControlledByApp=false
+06-07 03:16:11.106   874  1504 D DispPerfService: onframeavailable pid=5326, slot=0, seq=41476, name=com.example.dogglers:com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+06-07 03:16:11.109  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.111  1650  1663 I InputDispatcher: Window went away: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+06-07 03:16:11.121   874   874 D OppoExLayer: ~Layer() sequence=41471, name=Surface(name=669131f NavigationBar0)/@0xe54d8f7 - animation-leash#1@0xb400007bf3930000
+06-07 03:16:11.121   874   874 D OppoExLayer: ~Layer() sequence=41470, name=Surface(name=7b5d0e3 StatusBar)/@0x39afcf6 - animation-leash#1@0xb400007bf399c000
+06-07 03:16:11.122  5326  5326 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@34d14f5 in: STOPPED
+06-07 03:16:11.123  5326  5326 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.HorizontalListActivity@34d14f5
+06-07 03:16:11.124  5326  5326 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@4c3dd19, this = DecorView@9257e92[HorizontalListActivity]
+06-07 03:16:11.125  5326  5326 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@34d14f5 in: DESTROYED
+06-07 03:16:11.126  5326  5326 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-07 03:16:11.129   874  1504 I BufferQueueProducer: [com.example.dogglers/com.example.dogglers.HorizontalListActivity#0](id:36a00001f9f,api:1,p:5326,c:874) disconnect(): api=1
+06-07 03:16:11.130  5326  5326 D View    : [Warning] assignParent to null: this = DecorView@9257e92[HorizontalListActivity]
+06-07 03:16:11.131   874   951 D DispPerfService: get hint proc=Surface(name=613b6a7 InputMethod), idx=0 none
+06-07 03:16:11.135  5326  5326 I InputTransport: Destroy ARC handle: 0xb400007853360d00
+06-07 03:16:11.138  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.138   838   855 I mtkpower@impl: [setMode] type:5, enabled:0
+06-07 03:16:11.139   838   854 I mtkpower@impl: [mtkPowerHint] hint:23, hold:0, ext:30, ext_hold:5
+06-07 03:16:11.139   838   904 I libPowerHal: [perfLockRel] hdl:94415, idx:2
+06-07 03:16:11.139   838   904 I libPowerHal: [PD] scn:2 hdl:94415 hint:11 comm:mtkpower@1.0-se pid:838
+06-07 03:16:11.140   838   904 I libPowerHal: [perfLockRel] hdl:94416, idx:3
+06-07 03:16:11.140   838   904 I libPowerHal: [PD] scn:3 hdl:94416 hint:23 comm:mtkpower@1.0-se pid:838
+06-07 03:16:11.140   838   904 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1000000, param:-1
+06-07 03:16:11.140   838   904 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1408300 param:0
+06-07 03:16:11.140   838   904 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1000000 param:-1
+06-07 03:16:11.140  1650  1663 D InputMethodManagerService: isSecurity: attribute.packageName=com.example.dogglers
+06-07 03:16:11.140  1650  1663 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false  isExist=true )
+06-07 03:16:11.141  1650  1663 D OplusVerificationCodeController: notifyImeAttributeChanged: 64false
+06-07 03:16:11.142   838   904 I libPowerHal: [perfLockAcq] idx:2 hdl:94419 hint:30 pid:838 duration:5 => ret_hdl:94419
+06-07 03:16:11.142   838   904 I libPowerHal: [PE] scn:2 hdl:94419 hint:30 comm:mtkpower@1.0-se pid:838
+06-07 03:16:11.142   838   904 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:1000000, param:1
+06-07 03:16:11.142   838   904 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000, param:15
+06-07 03:16:11.142   838   904 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:1408300, param:40
+06-07 03:16:11.142   874   951 D DispPerfService: get hint proc=Surface(name=613b6a7 InputMethod), idx=0 none
+06-07 03:16:11.142   838   904 I libPowerHal: [PE] MTKPOWER_HINT_EXT_LAUNCH update cmd:1000000 param:1
+06-07 03:16:11.143  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3204
+06-07 03:16:11.143   874   874 D OppoExLayer: ~Layer() sequence=41463, name=ActivityRecord{7995a14 u0 com.example.dogglers/.HorizontalListActivity#0@0xb400007bd980d000
+06-07 03:16:11.144   874   874 D OppoExLayer: ~Layer() sequence=41468, name=d06e310 com.example.dogglers/com.example.dogglers.HorizontalListActivity#0@0xb400007bf394b000
+06-07 03:16:11.144   874   874 I BufferQueueConsumer: [com.example.dogglers/com.example.dogglers.HorizontalListActivity#0](id:36a00001f9f,api:0,p:-1,c:874) disconnect()
+06-07 03:16:11.144   874   874 I BufferQueue: [com.example.dogglers/com.example.dogglers.HorizontalListActivity#0](this:0xb400007bf391f058,id:8095,api:1,p:-1,c:-1) onDestructor()
+06-07 03:16:11.144   874   874 D OppoExLayer: ~Layer() sequence=41469, name=com.example.dogglers/com.example.dogglers.HorizontalListActivity#0@0xb400007bf3953000
+06-07 03:16:11.145  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2100 checkRepeatedly = false, unlocked = true
+06-07 03:16:11.145  1650  1663 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+06-07 03:16:11.145  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1903 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-07 03:16:11.145  1650  3081 I InputDispatcher: Window went away: com.example.dogglers/com.example.dogglers.HorizontalListActivity#0
+06-07 03:16:11.146  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2100 checkRepeatedly = true, unlocked = true
+06-07 03:16:11.147   838   904 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:94419
+06-07 03:16:11.147   838   904 I libPowerHal: [perfLockRel] hdl:94419, idx:2
+06-07 03:16:11.147   838   904 I libPowerHal: [PD] scn:2 hdl:94419 hint:30 comm:mtkpower@1.0-se pid:838
+06-07 03:16:11.148   838   904 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1000000, param:-1
+06-07 03:16:11.148  5326  5356 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.148   838   904 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:1
+06-07 03:16:11.148   838   904 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1408300 param:0
+06-07 03:16:11.148   838   904 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1000000 param:-1
+06-07 03:16:11.151  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94418, tid:1918
+06-07 03:16:11.151  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94418, dur:0, num:10, tid:1918
+06-07 03:16:11.151   838   904 I libPowerHal: [perfLockRel] hdl:94418, idx:1
+06-07 03:16:11.151   838   904 I libPowerHal: [PD] scn:1 hdl:94418 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.151   874  1507 D DispPerfService: get hint proc=ActivityRecord{96f518a u0 com.example.dogglers, idx=0 none
+06-07 03:16:11.151   838   904 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+06-07 03:16:11.151   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.152  1650  1918 I mtkpower_client: ret_hdl:94420
+06-07 03:16:11.152   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.152   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94420 hint:-1 pid:1650 duration:0 => ret_hdl:94420
+06-07 03:16:11.152   838   904 I libPowerHal: [PE] scn:1 hdl:94420 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.152   838   904 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2050000 -1
+06-07 03:16:11.152   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.152   838   855 I mtkpower@impl: [setMode] type:5, enabled:1
+06-07 03:16:11.153   838   904 I libPowerHal: [perfLockAcq] idx:2 hdl:94421 hint:11 pid:838 duration:30000 => ret_hdl:94421
+06-07 03:16:11.153   838   904 I libPowerHal: [PE] scn:2 hdl:94421 hint:11 comm:mtkpower@1.0-se pid:838
+06-07 03:16:11.153   838   904 I libPowerHal: [PE] LAUNCH update cmd:1000000, param:0
+06-07 03:16:11.153   838   904 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+06-07 03:16:11.153   838   904 I libPowerHal: [PE] LAUNCH update cmd:1000000 param:0
+06-07 03:16:11.158  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.160  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ace7f32 in: DESTROYED
+06-07 03:16:11.160  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@ace7f32
+06-07 03:16:11.164  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554 in: PAUSED
+06-07 03:16:11.164  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@f1e554
+06-07 03:16:11.166   874   874 D OppoExLayer: ~Layer() sequence=41450, name=Surface(name=7b5d0e3 StatusBar)/@0x39afcf6 - animation-leash#0@0xb400007bd9819000
+06-07 03:16:11.166   874   874 D OppoExLayer: ~Layer() sequence=41451, name=Surface(name=669131f NavigationBar0)/@0xe54d8f7 - animation-leash#0@0xb400007bd9e32000
+06-07 03:16:11.167  1650  5021 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+06-07 03:16:11.168  1650  5021 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+06-07 03:16:11.171  1650  1663 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+06-07 03:16:11.173  5326  5540 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.173  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94420, tid:1918
+06-07 03:16:11.174  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94420, dur:0, num:10, tid:1918
+06-07 03:16:11.174   838   854 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:94420, wait
+06-07 03:16:11.176  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8 in: PRE_ON_CREATE
+06-07 03:16:11.176  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8
+06-07 03:16:11.176   838   854 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:94420, wait
+06-07 03:16:11.177   838   904 I libPowerHal: [perfLockRel] hdl:94420, idx:1
+06-07 03:16:11.177   838   904 I libPowerHal: [PD] scn:1 hdl:94420 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.177   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.177   874   874 D OppoExLayer: ~Layer() sequence=41461, name=ActivityRecord{93ea416 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity#0@0xb400007bd9e83000
+06-07 03:16:11.179  1650  1918 I mtkpower_client: ret_hdl:94422
+06-07 03:16:11.179   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.179   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94422 hint:-1 pid:1650 duration:0 => ret_hdl:94422
+06-07 03:16:11.179   838   904 I libPowerHal: [PE] scn:1 hdl:94422 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.179   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.187  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8 in: CREATED
+06-07 03:16:11.187  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8
+06-07 03:16:11.189  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8 in: STARTED
+06-07 03:16:11.189  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8
+06-07 03:16:11.190  1650  2824 I InputDispatcher: Focus left window: Window{c8b5164 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+06-07 03:16:11.190  1650  2824 I InputDispatcher: Window went away: Window{c8b5164 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+06-07 03:16:11.191  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94422, tid:1918
+06-07 03:16:11.191  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94422, dur:0, num:10, tid:1918
+06-07 03:16:11.192  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8 in: RESUMED
+06-07 03:16:11.192  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8
+06-07 03:16:11.192   838   904 I libPowerHal: [perfLockRel] hdl:94422, idx:1
+06-07 03:16:11.192   838   904 I libPowerHal: [PD] scn:1 hdl:94422 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.192   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.192  5326  5326 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@97a9d97[]
+06-07 03:16:11.193   874  1504 I SurfaceFlinger: [SF client] NEW(0xb400007bf3852a00) for (5326:com.example.dogglers)
+06-07 03:16:11.193  1650  1918 I mtkpower_client: ret_hdl:94423
+06-07 03:16:11.193   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.193   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94423 hint:-1 pid:1650 duration:0 => ret_hdl:94423
+06-07 03:16:11.193   838   904 I libPowerHal: [PE] scn:1 hdl:94423 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.193   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.196  5326  5326 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+06-07 03:16:11.197  1650  2824 D OppoDisplayPolicy: com.example.dogglers, no change cutoutMode: 0
+06-07 03:16:11.198   874  1507 D DispPerfService: get hint proc=cd28de1 com.example.dogglers, idx=0 none
+06-07 03:16:11.199  5326  5326 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.200  5326  5326 I chatty  : uid=10209(com.example.dogglers) identical 4 lines
+06-07 03:16:11.200  5326  5326 E libEGL  : Invalid file path for libcolorx-loader.so
+06-07 03:16:11.200  5326  5326 I InputTransport: Create ARC handle: 0xb4000078519ffba0
+06-07 03:16:11.200  5326  5326 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@92b77a2, this = DecorView@97a9d97[InstrumentationActivityInvoker$EmptyActivity]
+06-07 03:16:11.204  1650  1663 D OppoDisplayPolicy: com.example.dogglers, no change cutoutMode: 0
+06-07 03:16:11.206   874  1507 D DispPerfService: get hint proc=com.example.dogglers, idx=0 none
+06-07 03:16:11.206   874  1507 I BufferQueueConsumer: [](id:36a00001fa1,api:0,p:-1,c:874) connect(): controlledByApp=false
+06-07 03:16:11.206   874  1507 I BufferQueue: [unnamed-874-8097](this:0xb400007bd9e24658,id:8097,api:0,p:-1,c:-1) BufferQueue core=(874:/system/bin/surfaceflinger)
+06-07 03:16:11.208   874  1507 D DispPerfService: get hint proc=Surface(name=7b5d0e3 StatusBar), idx=0 none
+06-07 03:16:11.209   874  1507 D DispPerfService: get hint proc=Surface(name=669131f NavigationBar0), idx=0 none
+06-07 03:16:11.210  1650  1663 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+06-07 03:16:11.214   874   951 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](id:36a00001fa1,api:1,p:5326,c:874) connect(): api=1 producerControlledByApp=false
+06-07 03:16:11.221   874   955 D DispPerfService: onframeavailable pid=5326, slot=0, seq=41483, name=com.example.dogglers:com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+06-07 03:16:11.224  1650  5021 I InputDispatcher: Window went away: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+06-07 03:16:11.228  1650  1687 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +75ms
+06-07 03:16:11.229  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.234   874   874 D OppoExLayer: ~Layer() sequence=41477, name=Surface(name=7b5d0e3 StatusBar)/@0x39afcf6 - animation-leash#0@0xb400007bf3987000
+06-07 03:16:11.235   874   874 D OppoExLayer: ~Layer() sequence=41478, name=Surface(name=669131f NavigationBar0)/@0xe54d8f7 - animation-leash#0@0xb400007bf398a000
+06-07 03:16:11.236  1650  5021 I InputDispatcher: Focus entered window: Window{cd28de1 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+06-07 03:16:11.237   874  3098 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](id:36a00001fa0,api:1,p:5326,c:874) disconnect(): api=1
+06-07 03:16:11.243  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.244  1650  5021 D InputMethodManagerService: isSecurity: attribute.packageName=com.example.dogglers
+06-07 03:16:11.244  1650  5021 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false  isExist=true )
+06-07 03:16:11.245  1650  5021 D OplusVerificationCodeController: notifyImeAttributeChanged: 64false
+06-07 03:16:11.247   874  3098 D DispPerfService: get hint proc=Surface(name=613b6a7 InputMethod), idx=0 none
+06-07 03:16:11.248  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3204
+06-07 03:16:11.249  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2100 checkRepeatedly = false, unlocked = true
+06-07 03:16:11.250  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1903 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+06-07 03:16:11.250  3894  3894 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2100 checkRepeatedly = true, unlocked = true
+06-07 03:16:11.250  1172 24788 W MtkOmxVdecExV4L2: ## [WARNING, 110] GetCmd() line: 407 No command in 5 seconds ...
+06-07 03:16:11.252  1650  3081 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+06-07 03:16:11.252  1650  3081 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{197d975 u0 com.oppo.launcher/.Launcher t2}
+06-07 03:16:11.252  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94423, tid:1918
+06-07 03:16:11.252  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94423, dur:0, num:10, tid:1918
+06-07 03:16:11.253   838   904 I libPowerHal: [perfLockRel] hdl:94423, idx:1
+06-07 03:16:11.253   838   904 I libPowerHal: [PD] scn:1 hdl:94423 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.253   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.253  1650  1918 I mtkpower_client: ret_hdl:94424
+06-07 03:16:11.253   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.253   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94424 hint:-1 pid:1650 duration:0 => ret_hdl:94424
+06-07 03:16:11.253   838   904 I libPowerHal: [PE] scn:1 hdl:94424 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.253   838   904 I libPowerHal: [PE] system_server update cmd:1410000, param:1
+06-07 03:16:11.256  5326  5326 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8 in: PAUSED
+06-07 03:16:11.256  5326  5326 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10209 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2b569d8
+06-07 03:16:11.257  1650  1664 V SensorManager: setScreenShotDisableImpl
+06-07 03:16:11.257  1650  1664 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+06-07 03:16:11.257  1650  1664 I ColorHansManager : ColorHansManager : resume pkg: com.oppo.launcher, uid:10074, prev pkg: com.example.dogglers, prev uid: 10209
+06-07 03:16:11.258  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94424, tid:1918
+06-07 03:16:11.258  1650  2567 I ColorHansManager : enter fastfreezer
+06-07 03:16:11.258  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94424, dur:0, num:10, tid:1918
+06-07 03:16:11.258  1650  2824 I InputDispatcher: Focus left window: Window{cd28de1 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+06-07 03:16:11.258  1650  2824 I InputDispatcher: Window went away: Window{cd28de1 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+06-07 03:16:11.258  1650  2567 W OplusLocationManagerService: NavigateMode doesn't match LocationMode
+06-07 03:16:11.259   838   904 I libPowerHal: [perfLockRel] hdl:94424, idx:1
+06-07 03:16:11.259   838   904 I libPowerHal: [PD] scn:1 hdl:94424 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.259  1650  2567 I ColorHansManager : freeze uid: 10115 package: com.nearme.gamecenter reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.259   838   904 I libPowerHal: [PD] system_server update cmd:1410000 param:0
+06-07 03:16:11.259  1650  1918 I mtkpower_client: ret_hdl:94425
+06-07 03:16:11.259  1650  2567 I ColorHansManager : freeze uid: 10505 package: com.facebook.katana reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.259   838   904 I libPowerHal: [perfNotifyAppState] foreground:com.oppo.launcher, pid:2605, uid:10074
+06-07 03:16:11.260   838   904 E UxUtility: notifyAppState error = NULL
+06-07 03:16:11.260   838   904 I TouchUtility: notifyAppState error = NULL
+06-07 03:16:11.260   838   904 I libPowerHal: [perfNotifyAppState] packName:com.oppo.launcher !!!
+06-07 03:16:11.260   838   904 I libPowerHal: [PE] scn:360 pack:com.oppo.launcher
+06-07 03:16:11.260   838   904 I libPowerHal: [PE] com.oppo.launcher update cmd:1410000, param:1
+06-07 03:16:11.260  1650  2567 I ColorHansManager : freeze uid: 10124 package: com.realme.link reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.260 21977 22042 I [0]DCS-BackgroundAppData: sendAppBgEvent: has no pkgName=com.oppo.launcher
+06-07 03:16:11.261  1650  2567 I ColorHansManager : freeze uid: 10265 package: com.ss.android.ugc.trill reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.261  2605  2605 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.261  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94425, tid:1918
+06-07 03:16:11.262  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94425, dur:0, num:10, tid:1918
+06-07 03:16:11.262  1650  2567 I ColorHansManager : freeze uid: 10538 package: com.discord reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] com.oppo.launcher update cmd:3408000, param:0
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] (less) /proc/perfmgr/tchbst/user/usrtch set +prefix:touch_opp 0;
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] com.oppo.launcher update cmd:3408100, param:1000000000
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] (more) /proc/perfmgr/tchbst/user/usrtch set +prefix:duration 1000000000;
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] com.oppo.launcher update cmd:3408200, param:0
+06-07 03:16:11.262   838   904 I libPowerHal: [PE] (more) /proc/perfmgr/tchbst/user/usrtch set +prefix:active_time 0;
+06-07 03:16:11.262  1650  2567 I ColorHansManager : freeze uid: 10544 package: com.simejikeyboard reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.262   838   854 I mtkpower@impl: [notifyAppState] pc:0, com.example.dogglers => com.oppo.launcher
+06-07 03:16:11.263   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.263   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94425 hint:-1 pid:1650 duration:0 => ret_hdl:94425
+06-07 03:16:11.263   838   904 I libPowerHal: [PE] scn:1 hdl:94425 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.263   838   904 I libPowerHal: [perfLockRel] hdl:94425, idx:1
+06-07 03:16:11.263   838   904 I libPowerHal: [PD] scn:1 hdl:94425 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.263   838   904 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+06-07 03:16:11.263   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94426 hint:-1 pid:1650 duration:0 => ret_hdl:94426
+06-07 03:16:11.263   838   904 I libPowerHal: [PE] scn:1 hdl:94426 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.263  1650  1918 I mtkpower_client: ret_hdl:94426
+06-07 03:16:11.263  1650  2567 I ColorHansManager : freeze uid: 10545 package: com.kiloo.subwaysurf reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.264  1650  2567 I ColorHansManager : freeze uid: 10186 package: com.google.android.apps.docs reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.264  2850  2868 W OppoGuardElf: ThermalControlUtils: mForegroundPkg=com.oppo.launcher
+06-07 03:16:11.264  2605  2605 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@e89527c, this = DecorView@844cf49[Launcher]
+06-07 03:16:11.265  1650  2567 I ColorHansManager : freeze uid: 10200 package: com.snapchat.android reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.265  1650  2567 I ColorHansManager : freeze uid: 10341 package: com.google.android.apps.classroom reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.266  1650  2713 I ColorResourcePreloadManager: resume pkg: com.oppo.launcher, uid:10074, prev pkg: com.example.dogglers, prev uid: 10209
+06-07 03:16:11.266   874   951 D DispPerfService: get hint proc=Surface(name=Task=2905), idx=0 none
+06-07 03:16:11.267  3146  3166 D ZoomAppController: ignore onAppEnter: Invalid cvActionFlag = 0
+06-07 03:16:11.268  1650  2567 W System.err: java.io.FileNotFoundException: /acct/uid_10214/pid_10758/cgroup.procs: open failed: EACCES (Permission denied)
+06-07 03:16:11.269  1650  2567 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:492)
+06-07 03:16:11.269  1650  2567 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+06-07 03:16:11.269  1650  2567 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:115)
+06-07 03:16:11.269  1650  2567 W System.err: 	at java.io.FileReader.<init>(FileReader.java:58)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansSceneBase.getRunningPidsByUid(ColorHansManager.java:4329)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansSceneBase.writeDevFile(ColorHansManager.java:4256)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansSceneBase.sendHansSignal(ColorHansManager.java:4230)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansSceneBase.freeze(ColorHansManager.java:4763)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansFastFreezerScene.hansFreeze(ColorHansManager.java:6395)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.HansFastFreezerScene.enterFastFreezer(ColorHansManager.java:6567)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.ColorHansManager.lambda$updateResumedActivity$1$ColorHansManager(ColorHansManager.java:2272)
+06-07 03:16:11.269  1650  2567 W System.err: 	at com.android.server.am.-$$Lambda$ColorHansManager$pwv3sXW31w1P1qWx_eWEC7oZsCs.run(Unknown Source:6)
+06-07 03:16:11.269  1650  2567 W System.err: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-07 03:16:11.269  1650  2567 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-07 03:16:11.269  1650  2567 W System.err: 	at android.os.Looper.loop(Looper.java:255)
+06-07 03:16:11.269  1650  2567 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-07 03:16:11.269   874   951 D DispPerfService: get hint proc=Surface(name=WallpaperWindowToken{b5cc2ec token=android.os.Binder@38b319f}), idx=0 none
+06-07 03:16:11.269  1650  2567 W System.err: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 03:16:11.269  1650  2567 W System.err: 	at libcore.io.Linux.open(Native Method)
+06-07 03:16:11.269  1650  2567 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+06-07 03:16:11.269  1650  2567 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+06-07 03:16:11.269  1650  2567 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:478)
+06-07 03:16:11.269  1650  2567 W System.err: 	... 15 more
+06-07 03:16:11.272  1650  2567 I ColorHansManager : freeze uid: 10214 package: com.lenovo.anyshare.gps reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.273  1650  2567 I ColorHansManager : freeze uid: 10480 package: com.lazada.android reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.275  1650  2567 I ColorHansManager : freeze uid: 10225 package: com.instagram.android reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.276  1650  2567 I ColorHansManager : freeze uid: 10231 package: com.pinterest reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.277  1650  2567 I ColorHansManager : freeze uid: 10236 package: com.appsinnova.android.keepclean reason: fastfreezer|10074 scene: FastFreezerScene
+06-07 03:16:11.277   874   874 D DispPerfService: get hint proc=, idx=0 none
+06-07 03:16:11.282   874   874 D OppoExLayer: ~Layer() sequence=41489, name=Screenshot Parent@0xb400007bf398a000
+06-07 03:16:11.284   874  3098 D DispPerfService: get hint proc=Surface(name=7b5d0e3 StatusBar), idx=0 none
+06-07 03:16:11.285  1650  1918 I mtkpower_client: perf_lock_rel, hdl:94426, tid:1918
+06-07 03:16:11.285  1650  1918 I mtkpower_client: perf_lock_acq, hdl:94426, dur:0, num:6, tid:1918
+06-07 03:16:11.285   874  3098 D DispPerfService: get hint proc=Surface(name=669131f NavigationBar0), idx=0 none
+06-07 03:16:11.285   838   904 I libPowerHal: [perfLockRel] hdl:94426, idx:1
+06-07 03:16:11.285   838   904 I libPowerHal: [PD] scn:1 hdl:94426 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.286  1650  1918 I mtkpower_client: ret_hdl:94427
+06-07 03:16:11.286   838   904 I libPowerHal: [perfLockAcq] idx:1 hdl:94427 hint:-1 pid:1650 duration:0 => ret_hdl:94427
+06-07 03:16:11.286   838   904 I libPowerHal: [PE] scn:1 hdl:94427 lock_user:system_server pid:1650 tid:1918 dur:0
+06-07 03:16:11.289  1650  4164 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+06-07 03:16:11.290  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.291  2605  2605 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.294  2605  2605 E SimulationInteractor: tryGetAnimationPainterInstance error:com.coloros.painteranimationpanel.api.AnimPainterInstance
+06-07 03:16:11.294  2605  2605 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@13ae688 mOrientationHandler=PortraitPagedViewHandler@98e570b mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+06-07 03:16:11.294  2605  2605 D RecentsOrientedState: current RecentsOrientedState new : [this=RecentsOrientedState@13ae688 mOrientationHandler=PortraitPagedViewHandler@98e570b mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+06-07 03:16:11.294  2605  2605 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@13ae688 mOrientationHandler=PortraitPagedViewHandler@98e570b mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+06-07 03:16:11.294  2605  2605 D RecentsOrientedState: current RecentsOrientedState new : [this=RecentsOrientedState@13ae688 mOrientationHandler=PortraitPagedViewHandler@98e570b mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+06-07 03:16:11.295  2605  2605 D IconConfigParser: parseConfig::icon config =: IconConfig = [ isForeign : true,theme : 4,iconSize : 4000,iconShape : 0,foregroundSize : 6000,artPlusOn : 1,iconRadius ：1,darkModeIcon:0 ]
+06-07 03:16:11.296  2605  2605 D IconConfigParser: parseConfig::icon config =: IconConfig = [ isForeign : true,theme : 4,iconSize : 4000,iconShape : 0,foregroundSize : 6000,artPlusOn : 1,iconRadius ：1,darkModeIcon:0 ]
+06-07 03:16:11.297  2605  2830 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.298   874  1504 E SurfaceFlinger: Permission Denial: can't access SurfaceFlinger pid=0, uid=10074
+06-07 03:16:11.298  2605  2605 D ColorLauncherAppTransitionManagerImpl: getClosingWindowAnimators: transPoint： PointF(0.0, 0.0), currentWindowRect = [0.0,0.0][1080.0,2400.0]
+06-07 03:16:11.298   874  1504 I surfaceflinger: oneway function results will be dropped but finished with status PERMISSION_DENIED and parcel size 0
+06-07 03:16:11.298  2605  2605 D ColorLauncherAppTransitionManagerImpl: getClosingWindowAnimators: transPoint： PointF(0.0, 0.0), currentWindowRect = [0.0,0.0][1080.0,2400.0]
+06-07 03:16:11.299  2605  2830 E Parcel  : Reading a NULL string not supported here.
+06-07 03:16:11.301  3894  3894 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@fc11c41, this = DecorView@71b05e6[InputMethod]
+06-07 03:16:11.301  5326  5356 I TestRunner: finished: recycler_view_item_count(com.example.dogglers.HorizontalListTests)
